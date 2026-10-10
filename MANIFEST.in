@@ -19,3 +19,5 @@ include AUDIT_SCOPE.md
 recursive-include examples *.png
 
 include VALIDATION.md
+
+include README.en.md CHANGELOG.md
