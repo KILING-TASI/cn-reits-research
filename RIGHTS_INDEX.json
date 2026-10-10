@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "research-rights-index/1",
+  "repository": "cn-reits-research",
+  "originalCodeLicense": "MIT",
+  "noticeFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "58e87e7b93154b33ec6e00a042768283bc64c099ae465d63a66413d19c3fee27"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "a556087d928b3619fadb0cb06eb252868e5d8077e6729dd7ea2cf8f5d571f9e2"
+    }
+  ],
+  "dataRights": "Source-specific; not granted by code MIT",
+  "methodReferences": "See repository method documents; citations do not convey text or data redistribution rights",
+  "scope": "Notice-file inventory and hashes, not an authorization or legal compliance certificate",
+  "hashFormat": "utf-8-lf"
+}
