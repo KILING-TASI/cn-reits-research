@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+# Captured example bytes are bound by receipts and browser hashes.
+examples/** -text
