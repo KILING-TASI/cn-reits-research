@@ -44,8 +44,6 @@ Windows运行Start-Demo.cmd，或执行 `python try_demo.py`；Linux/macOS用 `s
 经营驱动 `operating`、债务计划 `debt`、分配公告 `distribution-plan` 均为独立入口。完整底稿及真实公告案例见 [PUBLIC_CASES.md](PUBLIC_CASES.md)。公开案例缺未来现金流，不自动生成真实产品公平估值。
 
 
-
-
 [限定性能记录与复现方法](PERFORMANCE.md)。
 
 
@@ -62,7 +60,7 @@ Windows运行Start-Demo.cmd，或执行 `python try_demo.py`；Linux/macOS用 `s
 [模型、独立使用与浏览器验收范围](VALIDATION.md)。
 
 
-当前版本：[v0.1.3](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.3)。发布页提供完整源码、wheel、sdist与校验清单；三个包仅用标准库，pip安装不自动注册Skill。
+当前版本：[v0.1.4](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.4)。发布页提供完整源码、wheel、sdist与校验清单；三个包仅用标准库，pip安装不自动注册Skill。
 
 
 v0.1.1 修复冻结示例在分发时的换行转换，恢复验收原始字节；模型和原收据不改写。v0.1.0旧标签/附件保留，查看冻结样本请使用补丁版。
@@ -70,8 +68,6 @@ v0.1.1 修复冻结示例在分发时的换行转换，恢复验收原始字节�
 
 v0.1.2 统一包内软件版本与发行版本，保留v0.1.1的冻结字节修复；条件估值方法和历史收据不变。当前下载使用v0.1.3，旧标签/附件保留。
 
-## v0.1.3 缺口修正与数据入口
+## 参与、更新与清理
 
-清理重复使用者页面的发布残留，新增英文项目入口及版本变更索引；独立使用和历史冻结记录保持。
-
-[English introduction](README.en.md) · [版本变更](CHANGELOG.md)。
+[贡献说明](CONTRIBUTING.md) · [安全反馈](SECURITY.md) · [更新、缓存与卸载](LIFECYCLE.md)。
