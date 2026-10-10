@@ -63,7 +63,10 @@ Windows运行Start-Demo.cmd，或执行 `python try_demo.py`；Linux/macOS用 `s
 [模型、独立使用与浏览器验收范围](VALIDATION.md)。
 
 
-当前版本：[v0.1.1](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.1)。发布页提供完整源码、wheel、sdist与校验清单；三个包仅用标准库，pip安装不自动注册Skill。
+当前版本：[v0.1.2](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.2)。发布页提供完整源码、wheel、sdist与校验清单；三个包仅用标准库，pip安装不自动注册Skill。
 
 
 v0.1.1 修复冻结示例在分发时的换行转换，恢复验收原始字节；模型和原收据不改写。v0.1.0旧标签/附件保留，查看冻结样本请使用补丁版。
+
+
+v0.1.2 统一包内软件版本与发行版本，保留v0.1.1的冻结字节修复；条件估值方法和历史收据不变。当前下载使用v0.1.2，旧标签/附件保留。

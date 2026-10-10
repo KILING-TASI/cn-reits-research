@@ -8,4 +8,6 @@ with tempfile.TemporaryDirectory(prefix='isolated-cn-reits-research-') as folder
  assert expected.is_file()
  r=subprocess.run([sys.executable,'-I','-c',"import importlib.util;assert all(importlib.util.find_spec(x) is None for x in ['numpy','pandas','scipy','cnlookthrough','research_workbench','portfolio_engine'])"],cwd=folder,env=env)
  assert r.returncode==0
+import cn_reits,importlib.metadata
+assert cn_reits.__version__==importlib.metadata.version('cn-reits-research')
 print('Installed package completed minimum flow without other author repos or analysis packages')

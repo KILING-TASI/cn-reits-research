@@ -10,3 +10,10 @@ class FrozenReceiptTests(unittest.TestCase):
   folder=Path(__file__).resolve().parents[1]/'examples/reits-demo-accepted';record=json.loads((folder/'browser-acceptance.json').read_text(encoding='utf-8'))
   self.assertEqual(hashlib.sha256((folder/'report.html').read_bytes()).hexdigest(),record['reportSha256'])
   for view in record['viewports']:self.assertEqual(hashlib.sha256((folder/view['screenshot']).read_bytes()).hexdigest(),view['sha256'])
+
+class VersionTests(unittest.TestCase):
+ def test_source_distribution_version_matches_package(self):
+  import re,cn_reits
+  text=(Path(__file__).resolve().parents[1]/'pyproject.toml').read_text(encoding='utf-8')
+  declared=re.search(r'^version = "([^"]+)"',text,re.M).group(1)
+  self.assertEqual(cn_reits.__version__,declared)
