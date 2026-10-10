@@ -1,0 +1,437 @@
+{
+  "property": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "methodVersion": "dated-project-fcf-equity-bridge/1.0",
+    "entity": "原创教学园区",
+    "asOf": "2025-12-31",
+    "projects": [
+      {
+        "id": "park",
+        "assetModel": "property",
+        "rightsEndDate": "2055-12-31",
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "freeCashFlow": "90",
+            "presentValue": "81.81818181818181818181818182",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "freeCashFlow": "90",
+            "presentValue": "74.38016528925618605286524145",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        ],
+        "discountRate": "0.1",
+        "terminalPresentValue": "82.64462809917354005873915716",
+        "enterpriseValue": "238.8429752066115442934225805",
+        "ownership": "1",
+        "attributableEnterpriseValue": "238.8429752066115442934225805",
+        "assumptionStatus": "declared-not-independently-verified"
+      }
+    ],
+    "enterpriseValue": "238.8429752066115442934225805",
+    "fundExpensePresentValue": "4.545454545454545454545454545",
+    "equityBridge": {
+      "excessCash": "10",
+      "restrictedCashExcluded": "50",
+      "nonOperatingAssets": "0",
+      "debtPrincipal": "100",
+      "otherSeniorClaims": "0"
+    },
+    "equityValue": "144.2975206611569988388771260",
+    "fundUnits": "100",
+    "scenarioValuePerUnit": "1.44297520661156998838877126",
+    "observedMarketPrice": "2",
+    "observedMarketPriceDate": "2025-12-31",
+    "scenarioGapRatio": "-0.27851239669421500580561437",
+    "distribution": {
+      "period": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "acceptedIds": [
+        "paid-1"
+      ],
+      "excluded": [],
+      "cashPaidPerUnit": "0.2",
+      "periodCashDistributionYield": "0.1",
+      "annualized": false,
+      "coverage": "declared-payments-not-complete-certified"
+    },
+    "valuationStatus": "conditional-declared-inputs-not-fair-price-certified",
+    "unknown": [
+      "原文身份、完整经营假设与现金分类未由计算认证",
+      "现金流逐期输入不证明已经覆盖全部经营周期",
+      "租金、出租率、收费、续约、融资与退出值均须独立研究",
+      "权益桥声明不可含已在项目现金流重复计入的现金或费用",
+      "没有交易执行或估值有效性的保证"
+    ],
+    "expansion": {
+      "status": "not-requested"
+    },
+    "sensitivity": [
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "1.303097382375220685965156488",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "1.479008500967931723054963857",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "1.654919619560642760144771225",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "1.269421487603305539239123012",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "1.44297520661156998838877126",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "1.616528925619834437538419508",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "1.23659605551497419675020212",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "1.407848388929469760233321457",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "1.579100722343965323716440794",
+        "status": "calculated"
+      }
+    ],
+    "inputSha256": "9316cc92b6125835524a3d975aef800344ee1dd022e99ef7f37efbe4860f93e2"
+  },
+  "concession": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "methodVersion": "dated-project-fcf-equity-bridge/1.0",
+    "entity": "原创教学经营权项目",
+    "asOf": "2025-12-31",
+    "projects": [
+      {
+        "id": "park",
+        "assetModel": "concession",
+        "rightsEndDate": "2027-12-31",
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "freeCashFlow": "90",
+            "presentValue": "81.81818181818181818181818182",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "freeCashFlow": "90",
+            "presentValue": "74.38016528925618605286524145",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        ],
+        "discountRate": "0.1",
+        "terminalPresentValue": "0E+16",
+        "enterpriseValue": "156.1983471074380042346834233",
+        "ownership": "1",
+        "attributableEnterpriseValue": "156.1983471074380042346834233",
+        "assumptionStatus": "declared-not-independently-verified"
+      }
+    ],
+    "enterpriseValue": "156.1983471074380042346834233",
+    "fundExpensePresentValue": "4.545454545454545454545454545",
+    "equityBridge": {
+      "excessCash": "10",
+      "restrictedCashExcluded": "50",
+      "nonOperatingAssets": "0",
+      "debtPrincipal": "100",
+      "otherSeniorClaims": "0"
+    },
+    "equityValue": "61.6528925619834587801379688",
+    "fundUnits": "100",
+    "scenarioValuePerUnit": "0.616528925619834587801379688",
+    "observedMarketPrice": "2",
+    "observedMarketPriceDate": "2025-12-31",
+    "scenarioGapRatio": "-0.691735537190082706099310156",
+    "distribution": {
+      "period": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "acceptedIds": [
+        "paid-1"
+      ],
+      "excluded": [],
+      "cashPaidPerUnit": "0.2",
+      "periodCashDistributionYield": "0.1",
+      "annualized": false,
+      "coverage": "declared-payments-not-complete-certified"
+    },
+    "valuationStatus": "conditional-declared-inputs-not-fair-price-certified",
+    "unknown": [
+      "原文身份、完整经营假设与现金分类未由计算认证",
+      "现金流逐期输入不证明已经覆盖全部经营周期",
+      "租金、出租率、收费、续约、融资与退出值均须独立研究",
+      "权益桥声明不可含已在项目现金流重复计入的现金或费用",
+      "没有交易执行或估值有效性的保证"
+    ],
+    "expansion": {
+      "status": "not-requested"
+    },
+    "sensitivity": [
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "0.461417389108660773782679132",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "0.637328507701371810872486501",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "0.813239626294082847962293869",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "0.44297520661157013865173144",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "0.616528925619834587801379688",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "0.790082644628099036951027936",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "0.424973622270919462819909651",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "0.596225955685415026303028988",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "0.767478289099910589786148325",
+        "status": "calculated"
+      }
+    ],
+    "inputSha256": "c4814c4e7addb13cdda1515125939007794eb5f7c2231a7512ab9fb403f60860"
+  },
+  "expansion": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "methodVersion": "dated-project-fcf-equity-bridge/1.0",
+    "entity": "原创教学园区",
+    "asOf": "2025-12-31",
+    "projects": [
+      {
+        "id": "park",
+        "assetModel": "property",
+        "rightsEndDate": "2055-12-31",
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "freeCashFlow": "90",
+            "presentValue": "81.81818181818181818181818182",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "freeCashFlow": "90",
+            "presentValue": "74.38016528925618605286524145",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        ],
+        "discountRate": "0.1",
+        "terminalPresentValue": "82.64462809917354005873915716",
+        "enterpriseValue": "238.8429752066115442934225805",
+        "ownership": "1",
+        "attributableEnterpriseValue": "238.8429752066115442934225805",
+        "assumptionStatus": "declared-not-independently-verified"
+      }
+    ],
+    "enterpriseValue": "238.8429752066115442934225805",
+    "fundExpensePresentValue": "4.545454545454545454545454545",
+    "equityBridge": {
+      "excessCash": "10",
+      "restrictedCashExcluded": "50",
+      "nonOperatingAssets": "0",
+      "debtPrincipal": "100",
+      "otherSeniorClaims": "0"
+    },
+    "equityValue": "144.2975206611569988388771260",
+    "fundUnits": "100",
+    "scenarioValuePerUnit": "1.44297520661156998838877126",
+    "observedMarketPrice": "2",
+    "observedMarketPriceDate": "2025-12-31",
+    "scenarioGapRatio": "-0.27851239669421500580561437",
+    "distribution": {
+      "period": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "acceptedIds": [
+        "paid-1"
+      ],
+      "excluded": [],
+      "cashPaidPerUnit": "0.2",
+      "periodCashDistributionYield": "0.1",
+      "annualized": false,
+      "coverage": "declared-payments-not-complete-certified"
+    },
+    "valuationStatus": "conditional-declared-inputs-not-fair-price-certified",
+    "unknown": [
+      "原文身份、完整经营假设与现金分类未由计算认证",
+      "现金流逐期输入不证明已经覆盖全部经营周期",
+      "租金、出租率、收费、续约、融资与退出值均须独立研究",
+      "权益桥声明不可含已在项目现金流重复计入的现金或费用",
+      "没有交易执行或估值有效性的保证"
+    ],
+    "expansion": {
+      "status": "declared-expansion-scenario",
+      "newProjectEnterpriseValue": "238.8429752066115442934225805",
+      "additionalFundExpensePresentValue": "0",
+      "remainingProceeds": "80",
+      "postUnits": "200",
+      "postEquityValue": "463.1404958677685431322997065",
+      "postScenarioValuePerUnit": "2.315702479338842715661498532",
+      "perUnitChangeRatio": "0.604810996563573991947676717",
+      "limitation": "收购时点、融资条款及每份可供分配金额未被此权益估值比较替代；不是扩募一定增厚"
+    },
+    "sensitivity": [
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "1.303097382375220685965156488",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "1.479008500967931723054963857",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "-0.01",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "1.654919619560642760144771225",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "1.269421487603305539239123012",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "1.44297520661156998838877126",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "1.616528925619834437538419508",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "-0.1",
+        "scenarioValuePerUnit": "1.23659605551497419675020212",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "0",
+        "scenarioValuePerUnit": "1.407848388929469760233321457",
+        "status": "calculated"
+      },
+      {
+        "discountRateShift": "0.01",
+        "operatingCashShift": "0.1",
+        "scenarioValuePerUnit": "1.579100722343965323716440794",
+        "status": "calculated"
+      }
+    ],
+    "inputSha256": "6faa88b62b563d1eae451912ed4c37a2d7fc73761810764ef1cf34741b594a5d"
+  },
+  "available": {
+    "periodStart": "2025-01-01",
+    "periodEnd": "2025-12-31",
+    "calculatedAvailable": "60",
+    "availablePerUnit": "0.6",
+    "units": "100",
+    "reportedAvailable": "60",
+    "difference": "0",
+    "reconciliation": "within-declared-tolerance",
+    "classificationVerified": false,
+    "limitation": "逐项声明的算术桥，不认证全部调整合法性或实际已支付，不据此自动判定分配比例合规"
+  },
+  "lifecycle": {
+    "status": "calculated-conditional",
+    "irr": 0.09999999999999998,
+    "yearBasis": "ACT/365",
+    "npvResidualPerUnit": 0.0,
+    "limitation": "未来分派与到期回收为明确假设；分派率不是全周期收益率，没有执行或兑现保证"
+  }
+}

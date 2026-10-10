@@ -1,0 +1,19 @@
+{
+  "code": "508001",
+  "asOf": "2025-06-10",
+  "periodStart": "2024-01-01",
+  "periodEnd": "2024-12-31",
+  "availablePeriod": "430707979.93",
+  "previouslyDistributed": "213899959.75",
+  "remainingAvailable": "216808020.18",
+  "plannedTotal": "216800000",
+  "plannedPerTenUnits": "4.3362",
+  "plannedOnExchangePaymentDate": "2025-06-18",
+  "plannedOffExchangePaymentDate": "2025-06-16",
+  "source": {
+    "kind": "reported",
+    "description": "上交所披露分红公告第1页方案，第2页场内外日程，第3页年度累计、此前已分派及剩余；尚无登记支付凭证。",
+    "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-06-10/508001_20250610_P4SA.pdf",
+    "publishedAt": "2025-06-10"
+  }
+}

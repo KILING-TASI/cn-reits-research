@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cn-reits-research"
+version = "0.1.0"
+description = "Declared multi-project REIT cash flows, equity valuation, expansion and distributions"
+requires-python = ">=3.10"
+dependencies = []
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+authors = [{name = "KILING-TASI"}]
+[project.scripts]
+cn-reits-research = "cn_reits.__main__:main"
+[tool.setuptools.packages.find]
+include = ["cn_reits*"]
+
+[tool.setuptools.data-files]
+"share/cn-reits-research" = ["VALIDATION.md", "AUDIT_SCOPE.md", "PERFORMANCE.md", "README.md", "SKILL.md", "BEGINNER.md", "USER_SCENARIOS.md", "METHODS.md", "PUBLIC_CASES.md", "THIRD_PARTY_NOTICES.md"]
+"share/cn-reits-research/examples" = ["examples/huhangyong-2024-plan.json", "examples/teaching-all.json", "examples/zhangjiang-2025-h1-plan.json"]
+
+"share/cn-reits-research/examples/public-cases" = ["examples/huhangyong-2024-plan/*.json", "examples/huhangyong-2024-plan/*.html", "examples/zhangjiang-2025-h1-plan/*.json", "examples/zhangjiang-2025-h1-plan/*.html"]
+
+"share/cn-reits-research/examples/reits-demo-accepted" = ["examples/reits-demo-accepted/*.json", "examples/reits-demo-accepted/*.html", "examples/reits-demo-accepted/*.png"]

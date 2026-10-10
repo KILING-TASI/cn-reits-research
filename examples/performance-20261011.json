@@ -1,0 +1,63 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "workloads": [
+    {
+      "projects": 1,
+      "periodsPerProject": 2,
+      "sensitivityScenarios": 9,
+      "repeats": 5,
+      "medianSeconds": 0.0003580999909900129,
+      "maxSeconds": 0.0005161000008229166,
+      "measurementsSeconds": [
+        0.0005161000008229166,
+        0.00036910001654177904,
+        0.0003580999909900129,
+        0.0003525000065565109,
+        0.00034219998633489013
+      ],
+      "inputSha256": "f33353514e203d54d3ceb139167ca55d6c02f352487af23e76ffc5a14f30aa88",
+      "resultSha256": "cc9eef542f89d02c550957fa3dead069c5f7793f8ce26bce5d56475592930336"
+    },
+    {
+      "projects": 10,
+      "periodsPerProject": 2,
+      "sensitivityScenarios": 9,
+      "repeats": 5,
+      "medianSeconds": 0.0017721000185701996,
+      "maxSeconds": 0.002120899996953085,
+      "measurementsSeconds": [
+        0.0018057999841403216,
+        0.0017265999922528863,
+        0.0017125000013038516,
+        0.002120899996953085,
+        0.0017721000185701996
+      ],
+      "inputSha256": "810294adf1d6deac170f8c64f92bf991542f72ab534d17a44a8172b0248f9934",
+      "resultSha256": "07750d479c93e19a5d9ae12bf935e44ffae6079ad141ffce657892ad1c9f09c2"
+    },
+    {
+      "projects": 100,
+      "periodsPerProject": 2,
+      "sensitivityScenarios": 9,
+      "repeats": 5,
+      "medianSeconds": 0.015527699986705557,
+      "maxSeconds": 0.017193000006955117,
+      "measurementsSeconds": [
+        0.016277199989417568,
+        0.015527699986705557,
+        0.017193000006955117,
+        0.015151400002650917,
+        0.015195599989965558
+      ],
+      "inputSha256": "02176d2839f6875355e343db1047fb41c11369293c173a1e8d5d236091fa510a",
+      "resultSha256": "72143bb365e5684b146cfc8255802e8d2d3a39776ea3eb330d78b85d173dac59"
+    }
+  ],
+  "scope": "原创教学两期现金流，计入deepcopy及9组敏感性；不含联网、解析PDF、渲染或全市场数据",
+  "notGuaranteed": [
+    "不同硬件/版本速度不同",
+    "不是SLA、内存上界或并发生产压力认证"
+  ]
+}

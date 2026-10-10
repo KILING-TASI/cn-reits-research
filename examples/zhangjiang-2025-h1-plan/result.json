@@ -1,0 +1,33 @@
+{
+  "code": "508000",
+  "period": [
+    "2025-01-01",
+    "2025-06-30"
+  ],
+  "availablePeriod": "60004669.15",
+  "remainingAvailable": "60004669.15",
+  "plannedTotal": "60000000",
+  "plannedPerUnit": "0.06248",
+  "planToRemainingRatio": "0.9999221868886848116218635963",
+  "planToPeriodRatio": "0.9999221868886848116218635963",
+  "arithmeticCheck": "matched",
+  "actualPaid": null,
+  "marketYield": null,
+  "fairValue": null,
+  "source": {
+    "kind": "reported",
+    "description": "管理人分红公告PDF第1页基本指标，第2页期间累计金额/方案/场内外日程。0前期分派基于本次为年度首次且第2页累计和剩余同值；不是登记机构支付凭证。",
+    "url": "https://www.huaan.com.cn/upload2010/2025/09/16/000128311_0_e4eac0f3-fe8e-3bc5-bf41-b65e48a60070.pdf",
+    "publishedAt": "2025-09-16"
+  },
+  "paymentSchedule": {
+    "onExchange": "2025-09-24",
+    "offExchange": "2025-09-22"
+  },
+  "limitations": [
+    "公告计划及发放日期不证明账户实际到账",
+    "缺登记份额，不从四舍五入的每十份金额倒推份额",
+    "缺价格不算分派率，缺未来经营现金流不编造完整估值",
+    "方案/剩余可供分配比例不是年度法定分配比例认证"
+  ]
+}

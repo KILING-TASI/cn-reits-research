@@ -1,0 +1,431 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>REITs经营估值研究</title><style>body{max-width:1000px;margin:32px auto;padding:0 20px;font:17px/1.7 system-ui;color:#203047}table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid #ddd;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere}section{margin:28px 0}</style><h1>REITs经营估值研究</h1><p>先看口径和缺口：结果为声明现金流下的条件测算，不是已经认证的公平价格或实际可成交价格。教学材料不是真实REIT或未来预测。</p><section><h2>产权项目估值教学</h2><table><tr><th>项目</th><th>CNY口径</th></tr><tr><td>声明情景每份额价值（元/份）</td><td>1.4430</td></tr><tr><td>观察市场价格（元/份）</td><td>2.0000</td></tr><tr><td>项目企业价值合计（元）</td><td>238.84</td></tr><tr><td>基金费用现值（元）</td><td>4.55</td></tr></table><p>受限现金排除：50.00元。分派观察不自动年化；九组情景是敏感性比较，不是概率区间。企业价值指项目现金流折现值，基金权益价值还需扣费用和债务。</p><table><tr><th>折现率变化（百分点）</th><th>经营现金变化（%）</th><th>情景每份额（元）</th></tr><tr><td>-1.00</td><td>-10.00</td><td>1.3031</td></tr><tr><td>-1.00</td><td>0.00</td><td>1.4790</td></tr><tr><td>-1.00</td><td>10.00</td><td>1.6549</td></tr><tr><td>0.00</td><td>-10.00</td><td>1.2694</td></tr><tr><td>0.00</td><td>0.00</td><td>1.4430</td></tr><tr><td>0.00</td><td>10.00</td><td>1.6165</td></tr><tr><td>1.00</td><td>-10.00</td><td>1.2366</td></tr><tr><td>1.00</td><td>0.00</td><td>1.4078</td></tr><tr><td>1.00</td><td>10.00</td><td>1.5791</td></tr></table><details><summary>完整依据、结果与缺口</summary><pre>{
+  &quot;schemaVersion&quot;: &quot;cn-reits-valuation/1.0&quot;,
+  &quot;methodVersion&quot;: &quot;dated-project-fcf-equity-bridge/1.0&quot;,
+  &quot;entity&quot;: &quot;原创教学园区&quot;,
+  &quot;asOf&quot;: &quot;2025-12-31&quot;,
+  &quot;projects&quot;: [
+    {
+      &quot;id&quot;: &quot;park&quot;,
+      &quot;assetModel&quot;: &quot;property&quot;,
+      &quot;rightsEndDate&quot;: &quot;2055-12-31&quot;,
+      &quot;cashFlows&quot;: [
+        {
+          &quot;date&quot;: &quot;2026-12-31&quot;,
+          &quot;freeCashFlow&quot;: &quot;90&quot;,
+          &quot;presentValue&quot;: &quot;81.81818181818181818181818182&quot;,
+          &quot;source&quot;: {
+            &quot;kind&quot;: &quot;teaching&quot;,
+            &quot;description&quot;: &quot;原创合成教学假设，不是真实REIT、市场价格或预测&quot;
+          }
+        },
+        {
+          &quot;date&quot;: &quot;2027-12-31&quot;,
+          &quot;freeCashFlow&quot;: &quot;90&quot;,
+          &quot;presentValue&quot;: &quot;74.38016528925618605286524145&quot;,
+          &quot;source&quot;: {
+            &quot;kind&quot;: &quot;teaching&quot;,
+            &quot;description&quot;: &quot;原创合成教学假设，不是真实REIT、市场价格或预测&quot;
+          }
+        }
+      ],
+      &quot;discountRate&quot;: &quot;0.1&quot;,
+      &quot;terminalPresentValue&quot;: &quot;82.64462809917354005873915716&quot;,
+      &quot;enterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+      &quot;ownership&quot;: &quot;1&quot;,
+      &quot;attributableEnterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+      &quot;assumptionStatus&quot;: &quot;declared-not-independently-verified&quot;
+    }
+  ],
+  &quot;enterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+  &quot;fundExpensePresentValue&quot;: &quot;4.545454545454545454545454545&quot;,
+  &quot;equityBridge&quot;: {
+    &quot;excessCash&quot;: &quot;10&quot;,
+    &quot;restrictedCashExcluded&quot;: &quot;50&quot;,
+    &quot;nonOperatingAssets&quot;: &quot;0&quot;,
+    &quot;debtPrincipal&quot;: &quot;100&quot;,
+    &quot;otherSeniorClaims&quot;: &quot;0&quot;
+  },
+  &quot;equityValue&quot;: &quot;144.2975206611569988388771260&quot;,
+  &quot;fundUnits&quot;: &quot;100&quot;,
+  &quot;scenarioValuePerUnit&quot;: &quot;1.44297520661156998838877126&quot;,
+  &quot;observedMarketPrice&quot;: &quot;2&quot;,
+  &quot;observedMarketPriceDate&quot;: &quot;2025-12-31&quot;,
+  &quot;scenarioGapRatio&quot;: &quot;-0.27851239669421500580561437&quot;,
+  &quot;distribution&quot;: {
+    &quot;period&quot;: {
+      &quot;start&quot;: &quot;2025-01-01&quot;,
+      &quot;end&quot;: &quot;2025-12-31&quot;
+    },
+    &quot;acceptedIds&quot;: [
+      &quot;paid-1&quot;
+    ],
+    &quot;excluded&quot;: [],
+    &quot;cashPaidPerUnit&quot;: &quot;0.2&quot;,
+    &quot;periodCashDistributionYield&quot;: &quot;0.1&quot;,
+    &quot;annualized&quot;: false,
+    &quot;coverage&quot;: &quot;declared-payments-not-complete-certified&quot;
+  },
+  &quot;valuationStatus&quot;: &quot;conditional-declared-inputs-not-fair-price-certified&quot;,
+  &quot;unknown&quot;: [
+    &quot;原文身份、完整经营假设与现金分类未由计算认证&quot;,
+    &quot;现金流逐期输入不证明已经覆盖全部经营周期&quot;,
+    &quot;租金、出租率、收费、续约、融资与退出值均须独立研究&quot;,
+    &quot;权益桥声明不可含已在项目现金流重复计入的现金或费用&quot;,
+    &quot;没有交易执行或估值有效性的保证&quot;
+  ],
+  &quot;expansion&quot;: {
+    &quot;status&quot;: &quot;not-requested&quot;
+  },
+  &quot;sensitivity&quot;: [
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.303097382375220685965156488&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.479008500967931723054963857&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.654919619560642760144771225&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.269421487603305539239123012&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.44297520661156998838877126&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.616528925619834437538419508&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.23659605551497419675020212&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.407848388929469760233321457&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.579100722343965323716440794&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    }
+  ],
+  &quot;inputSha256&quot;: &quot;9316cc92b6125835524a3d975aef800344ee1dd022e99ef7f37efbe4860f93e2&quot;
+}</pre></details></section><section><h2>经营权到期估值教学</h2><table><tr><th>项目</th><th>CNY口径</th></tr><tr><td>声明情景每份额价值（元/份）</td><td>0.6165</td></tr><tr><td>观察市场价格（元/份）</td><td>2.0000</td></tr><tr><td>项目企业价值合计（元）</td><td>156.20</td></tr><tr><td>基金费用现值（元）</td><td>4.55</td></tr></table><p>受限现金排除：50.00元。分派观察不自动年化；九组情景是敏感性比较，不是概率区间。企业价值指项目现金流折现值，基金权益价值还需扣费用和债务。</p><table><tr><th>折现率变化（百分点）</th><th>经营现金变化（%）</th><th>情景每份额（元）</th></tr><tr><td>-1.00</td><td>-10.00</td><td>0.4614</td></tr><tr><td>-1.00</td><td>0.00</td><td>0.6373</td></tr><tr><td>-1.00</td><td>10.00</td><td>0.8132</td></tr><tr><td>0.00</td><td>-10.00</td><td>0.4430</td></tr><tr><td>0.00</td><td>0.00</td><td>0.6165</td></tr><tr><td>0.00</td><td>10.00</td><td>0.7901</td></tr><tr><td>1.00</td><td>-10.00</td><td>0.4250</td></tr><tr><td>1.00</td><td>0.00</td><td>0.5962</td></tr><tr><td>1.00</td><td>10.00</td><td>0.7675</td></tr></table><details><summary>完整依据、结果与缺口</summary><pre>{
+  &quot;schemaVersion&quot;: &quot;cn-reits-valuation/1.0&quot;,
+  &quot;methodVersion&quot;: &quot;dated-project-fcf-equity-bridge/1.0&quot;,
+  &quot;entity&quot;: &quot;原创教学经营权项目&quot;,
+  &quot;asOf&quot;: &quot;2025-12-31&quot;,
+  &quot;projects&quot;: [
+    {
+      &quot;id&quot;: &quot;park&quot;,
+      &quot;assetModel&quot;: &quot;concession&quot;,
+      &quot;rightsEndDate&quot;: &quot;2027-12-31&quot;,
+      &quot;cashFlows&quot;: [
+        {
+          &quot;date&quot;: &quot;2026-12-31&quot;,
+          &quot;freeCashFlow&quot;: &quot;90&quot;,
+          &quot;presentValue&quot;: &quot;81.81818181818181818181818182&quot;,
+          &quot;source&quot;: {
+            &quot;kind&quot;: &quot;teaching&quot;,
+            &quot;description&quot;: &quot;原创合成教学假设，不是真实REIT、市场价格或预测&quot;
+          }
+        },
+        {
+          &quot;date&quot;: &quot;2027-12-31&quot;,
+          &quot;freeCashFlow&quot;: &quot;90&quot;,
+          &quot;presentValue&quot;: &quot;74.38016528925618605286524145&quot;,
+          &quot;source&quot;: {
+            &quot;kind&quot;: &quot;teaching&quot;,
+            &quot;description&quot;: &quot;原创合成教学假设，不是真实REIT、市场价格或预测&quot;
+          }
+        }
+      ],
+      &quot;discountRate&quot;: &quot;0.1&quot;,
+      &quot;terminalPresentValue&quot;: &quot;0E+16&quot;,
+      &quot;enterpriseValue&quot;: &quot;156.1983471074380042346834233&quot;,
+      &quot;ownership&quot;: &quot;1&quot;,
+      &quot;attributableEnterpriseValue&quot;: &quot;156.1983471074380042346834233&quot;,
+      &quot;assumptionStatus&quot;: &quot;declared-not-independently-verified&quot;
+    }
+  ],
+  &quot;enterpriseValue&quot;: &quot;156.1983471074380042346834233&quot;,
+  &quot;fundExpensePresentValue&quot;: &quot;4.545454545454545454545454545&quot;,
+  &quot;equityBridge&quot;: {
+    &quot;excessCash&quot;: &quot;10&quot;,
+    &quot;restrictedCashExcluded&quot;: &quot;50&quot;,
+    &quot;nonOperatingAssets&quot;: &quot;0&quot;,
+    &quot;debtPrincipal&quot;: &quot;100&quot;,
+    &quot;otherSeniorClaims&quot;: &quot;0&quot;
+  },
+  &quot;equityValue&quot;: &quot;61.6528925619834587801379688&quot;,
+  &quot;fundUnits&quot;: &quot;100&quot;,
+  &quot;scenarioValuePerUnit&quot;: &quot;0.616528925619834587801379688&quot;,
+  &quot;observedMarketPrice&quot;: &quot;2&quot;,
+  &quot;observedMarketPriceDate&quot;: &quot;2025-12-31&quot;,
+  &quot;scenarioGapRatio&quot;: &quot;-0.691735537190082706099310156&quot;,
+  &quot;distribution&quot;: {
+    &quot;period&quot;: {
+      &quot;start&quot;: &quot;2025-01-01&quot;,
+      &quot;end&quot;: &quot;2025-12-31&quot;
+    },
+    &quot;acceptedIds&quot;: [
+      &quot;paid-1&quot;
+    ],
+    &quot;excluded&quot;: [],
+    &quot;cashPaidPerUnit&quot;: &quot;0.2&quot;,
+    &quot;periodCashDistributionYield&quot;: &quot;0.1&quot;,
+    &quot;annualized&quot;: false,
+    &quot;coverage&quot;: &quot;declared-payments-not-complete-certified&quot;
+  },
+  &quot;valuationStatus&quot;: &quot;conditional-declared-inputs-not-fair-price-certified&quot;,
+  &quot;unknown&quot;: [
+    &quot;原文身份、完整经营假设与现金分类未由计算认证&quot;,
+    &quot;现金流逐期输入不证明已经覆盖全部经营周期&quot;,
+    &quot;租金、出租率、收费、续约、融资与退出值均须独立研究&quot;,
+    &quot;权益桥声明不可含已在项目现金流重复计入的现金或费用&quot;,
+    &quot;没有交易执行或估值有效性的保证&quot;
+  ],
+  &quot;expansion&quot;: {
+    &quot;status&quot;: &quot;not-requested&quot;
+  },
+  &quot;sensitivity&quot;: [
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.461417389108660773782679132&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.637328507701371810872486501&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.813239626294082847962293869&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.44297520661157013865173144&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.616528925619834587801379688&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.790082644628099036951027936&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.424973622270919462819909651&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.596225955685415026303028988&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;0.767478289099910589786148325&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    }
+  ],
+  &quot;inputSha256&quot;: &quot;c4814c4e7addb13cdda1515125939007794eb5f7c2231a7512ab9fb403f60860&quot;
+}</pre></details></section><section><h2>扩募权益比较教学</h2><table><tr><th>项目</th><th>CNY口径</th></tr><tr><td>声明情景每份额价值（元/份）</td><td>1.4430</td></tr><tr><td>观察市场价格（元/份）</td><td>2.0000</td></tr><tr><td>项目企业价值合计（元）</td><td>238.84</td></tr><tr><td>基金费用现值（元）</td><td>4.55</td></tr></table><p>受限现金排除：50.00元。分派观察不自动年化；九组情景是敏感性比较，不是概率区间。企业价值指项目现金流折现值，基金权益价值还需扣费用和债务。</p><table><tr><th>折现率变化（百分点）</th><th>经营现金变化（%）</th><th>情景每份额（元）</th></tr><tr><td>-1.00</td><td>-10.00</td><td>1.3031</td></tr><tr><td>-1.00</td><td>0.00</td><td>1.4790</td></tr><tr><td>-1.00</td><td>10.00</td><td>1.6549</td></tr><tr><td>0.00</td><td>-10.00</td><td>1.2694</td></tr><tr><td>0.00</td><td>0.00</td><td>1.4430</td></tr><tr><td>0.00</td><td>10.00</td><td>1.6165</td></tr><tr><td>1.00</td><td>-10.00</td><td>1.2366</td></tr><tr><td>1.00</td><td>0.00</td><td>1.4078</td></tr><tr><td>1.00</td><td>10.00</td><td>1.5791</td></tr></table><details><summary>完整依据、结果与缺口</summary><pre>{
+  &quot;schemaVersion&quot;: &quot;cn-reits-valuation/1.0&quot;,
+  &quot;methodVersion&quot;: &quot;dated-project-fcf-equity-bridge/1.0&quot;,
+  &quot;entity&quot;: &quot;原创教学园区&quot;,
+  &quot;asOf&quot;: &quot;2025-12-31&quot;,
+  &quot;projects&quot;: [
+    {
+      &quot;id&quot;: &quot;park&quot;,
+      &quot;assetModel&quot;: &quot;property&quot;,
+      &quot;rightsEndDate&quot;: &quot;2055-12-31&quot;,
+      &quot;cashFlows&quot;: [
+        {
+          &quot;date&quot;: &quot;2026-12-31&quot;,
+          &quot;freeCashFlow&quot;: &quot;90&quot;,
+          &quot;presentValue&quot;: &quot;81.81818181818181818181818182&quot;,
+          &quot;source&quot;: {
+            &quot;kind&quot;: &quot;teaching&quot;,
+            &quot;description&quot;: &quot;原创合成教学假设，不是真实REIT、市场价格或预测&quot;
+          }
+        },
+        {
+          &quot;date&quot;: &quot;2027-12-31&quot;,
+          &quot;freeCashFlow&quot;: &quot;90&quot;,
+          &quot;presentValue&quot;: &quot;74.38016528925618605286524145&quot;,
+          &quot;source&quot;: {
+            &quot;kind&quot;: &quot;teaching&quot;,
+            &quot;description&quot;: &quot;原创合成教学假设，不是真实REIT、市场价格或预测&quot;
+          }
+        }
+      ],
+      &quot;discountRate&quot;: &quot;0.1&quot;,
+      &quot;terminalPresentValue&quot;: &quot;82.64462809917354005873915716&quot;,
+      &quot;enterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+      &quot;ownership&quot;: &quot;1&quot;,
+      &quot;attributableEnterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+      &quot;assumptionStatus&quot;: &quot;declared-not-independently-verified&quot;
+    }
+  ],
+  &quot;enterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+  &quot;fundExpensePresentValue&quot;: &quot;4.545454545454545454545454545&quot;,
+  &quot;equityBridge&quot;: {
+    &quot;excessCash&quot;: &quot;10&quot;,
+    &quot;restrictedCashExcluded&quot;: &quot;50&quot;,
+    &quot;nonOperatingAssets&quot;: &quot;0&quot;,
+    &quot;debtPrincipal&quot;: &quot;100&quot;,
+    &quot;otherSeniorClaims&quot;: &quot;0&quot;
+  },
+  &quot;equityValue&quot;: &quot;144.2975206611569988388771260&quot;,
+  &quot;fundUnits&quot;: &quot;100&quot;,
+  &quot;scenarioValuePerUnit&quot;: &quot;1.44297520661156998838877126&quot;,
+  &quot;observedMarketPrice&quot;: &quot;2&quot;,
+  &quot;observedMarketPriceDate&quot;: &quot;2025-12-31&quot;,
+  &quot;scenarioGapRatio&quot;: &quot;-0.27851239669421500580561437&quot;,
+  &quot;distribution&quot;: {
+    &quot;period&quot;: {
+      &quot;start&quot;: &quot;2025-01-01&quot;,
+      &quot;end&quot;: &quot;2025-12-31&quot;
+    },
+    &quot;acceptedIds&quot;: [
+      &quot;paid-1&quot;
+    ],
+    &quot;excluded&quot;: [],
+    &quot;cashPaidPerUnit&quot;: &quot;0.2&quot;,
+    &quot;periodCashDistributionYield&quot;: &quot;0.1&quot;,
+    &quot;annualized&quot;: false,
+    &quot;coverage&quot;: &quot;declared-payments-not-complete-certified&quot;
+  },
+  &quot;valuationStatus&quot;: &quot;conditional-declared-inputs-not-fair-price-certified&quot;,
+  &quot;unknown&quot;: [
+    &quot;原文身份、完整经营假设与现金分类未由计算认证&quot;,
+    &quot;现金流逐期输入不证明已经覆盖全部经营周期&quot;,
+    &quot;租金、出租率、收费、续约、融资与退出值均须独立研究&quot;,
+    &quot;权益桥声明不可含已在项目现金流重复计入的现金或费用&quot;,
+    &quot;没有交易执行或估值有效性的保证&quot;
+  ],
+  &quot;expansion&quot;: {
+    &quot;status&quot;: &quot;declared-expansion-scenario&quot;,
+    &quot;newProjectEnterpriseValue&quot;: &quot;238.8429752066115442934225805&quot;,
+    &quot;additionalFundExpensePresentValue&quot;: &quot;0&quot;,
+    &quot;remainingProceeds&quot;: &quot;80&quot;,
+    &quot;postUnits&quot;: &quot;200&quot;,
+    &quot;postEquityValue&quot;: &quot;463.1404958677685431322997065&quot;,
+    &quot;postScenarioValuePerUnit&quot;: &quot;2.315702479338842715661498532&quot;,
+    &quot;perUnitChangeRatio&quot;: &quot;0.604810996563573991947676717&quot;,
+    &quot;limitation&quot;: &quot;收购时点、融资条款及每份可供分配金额未被此权益估值比较替代；不是扩募一定增厚&quot;
+  },
+  &quot;sensitivity&quot;: [
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.303097382375220685965156488&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.479008500967931723054963857&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;-0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.654919619560642760144771225&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.269421487603305539239123012&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.44297520661156998838877126&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.616528925619834437538419508&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;-0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.23659605551497419675020212&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.407848388929469760233321457&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    },
+    {
+      &quot;discountRateShift&quot;: &quot;0.01&quot;,
+      &quot;operatingCashShift&quot;: &quot;0.1&quot;,
+      &quot;scenarioValuePerUnit&quot;: &quot;1.579100722343965323716440794&quot;,
+      &quot;status&quot;: &quot;calculated&quot;
+    }
+  ],
+  &quot;inputSha256&quot;: &quot;6faa88b62b563d1eae451912ed4c37a2d7fc73761810764ef1cf34741b594a5d&quot;
+}</pre></details></section><section><h2>可供分配金额教学</h2><p>声明调整后可供分配金额 60.00元；每份 0.6000元。它是利润与逐项调整的算术桥，尚不等于账户实际到账。</p><details><summary>完整依据、结果与缺口</summary><pre>{
+  &quot;periodStart&quot;: &quot;2025-01-01&quot;,
+  &quot;periodEnd&quot;: &quot;2025-12-31&quot;,
+  &quot;calculatedAvailable&quot;: &quot;60&quot;,
+  &quot;availablePerUnit&quot;: &quot;0.6&quot;,
+  &quot;units&quot;: &quot;100&quot;,
+  &quot;reportedAvailable&quot;: &quot;60&quot;,
+  &quot;difference&quot;: &quot;0&quot;,
+  &quot;reconciliation&quot;: &quot;within-declared-tolerance&quot;,
+  &quot;classificationVerified&quot;: false,
+  &quot;limitation&quot;: &quot;逐项声明的算术桥，不认证全部调整合法性或实际已支付，不据此自动判定分配比例合规&quot;
+}</pre></details></section><section><h2>全周期现金流教学</h2><p>条件全周期年收益率 10.00%。IRR考虑取得价格、未来分派与到期回收的时间；不能用当年分派率代替。</p><details><summary>完整依据、结果与缺口</summary><pre>{
+  &quot;status&quot;: &quot;calculated-conditional&quot;,
+  &quot;irr&quot;: 0.09999999999999998,
+  &quot;yearBasis&quot;: &quot;ACT/365&quot;,
+  &quot;npvResidualPerUnit&quot;: 0.0,
+  &quot;limitation&quot;: &quot;未来分派与到期回收为明确假设；分派率不是全周期收益率，没有执行或兑现保证&quot;
+}</pre></details></section></html>

@@ -1,0 +1,407 @@
+{
+  "property": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "entity": "原创教学园区",
+    "asOf": "2025-12-31",
+    "currency": "CNY",
+    "fundUnits": "100",
+    "marketPrice": "2",
+    "marketPriceDate": "2025-12-31",
+    "projects": [
+      {
+        "id": "park",
+        "assetModel": "property",
+        "rightsEndDate": "2055-12-31",
+        "ownership": "1",
+        "discountRate": "0.1",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        },
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "operatingCashFlowAfterTax": "100",
+            "maintenanceCapex": "10",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "operatingCashFlowAfterTax": "100",
+            "maintenanceCapex": "10",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        ],
+        "terminal": {
+          "date": "2027-12-31",
+          "netProceeds": "100",
+          "method": "declared-exit",
+          "source": {
+            "kind": "teaching",
+            "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+          }
+        }
+      }
+    ],
+    "fundDiscountRate": "0.1",
+    "fundExpenses": [
+      {
+        "date": "2026-12-31",
+        "amount": "5",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "excessCash": "10",
+    "restrictedCash": "50",
+    "debtPrincipal": "100",
+    "otherSeniorClaims": "0",
+    "nonOperatingAssets": "0",
+    "equityBridgeSource": {
+      "kind": "teaching",
+      "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+    },
+    "distributionPeriod": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "distributions": [
+      {
+        "id": "paid-1",
+        "periodStart": "2025-01-01",
+        "periodEnd": "2025-12-31",
+        "paidDate": "2025-12-31",
+        "totalPaid": "20",
+        "unitsAtRecordDate": "100",
+        "reportedPerUnit": "0.2",
+        "tolerancePerUnit": "0.0001",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "expansion": null
+  },
+  "concession": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "entity": "原创教学经营权项目",
+    "asOf": "2025-12-31",
+    "currency": "CNY",
+    "fundUnits": "100",
+    "marketPrice": "2",
+    "marketPriceDate": "2025-12-31",
+    "projects": [
+      {
+        "id": "park",
+        "assetModel": "concession",
+        "rightsEndDate": "2027-12-31",
+        "ownership": "1",
+        "discountRate": "0.1",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        },
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "operatingCashFlowAfterTax": "100",
+            "maintenanceCapex": "10",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "operatingCashFlowAfterTax": "100",
+            "maintenanceCapex": "10",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        ],
+        "terminal": {
+          "date": "2027-12-31",
+          "netProceeds": "0",
+          "method": "contract-expiry",
+          "source": {
+            "kind": "teaching",
+            "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+          }
+        }
+      }
+    ],
+    "fundDiscountRate": "0.1",
+    "fundExpenses": [
+      {
+        "date": "2026-12-31",
+        "amount": "5",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "excessCash": "10",
+    "restrictedCash": "50",
+    "debtPrincipal": "100",
+    "otherSeniorClaims": "0",
+    "nonOperatingAssets": "0",
+    "equityBridgeSource": {
+      "kind": "teaching",
+      "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+    },
+    "distributionPeriod": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "distributions": [
+      {
+        "id": "paid-1",
+        "periodStart": "2025-01-01",
+        "periodEnd": "2025-12-31",
+        "paidDate": "2025-12-31",
+        "totalPaid": "20",
+        "unitsAtRecordDate": "100",
+        "reportedPerUnit": "0.2",
+        "tolerancePerUnit": "0.0001",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "expansion": null
+  },
+  "expansion": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "entity": "原创教学园区",
+    "asOf": "2025-12-31",
+    "currency": "CNY",
+    "fundUnits": "100",
+    "marketPrice": "2",
+    "marketPriceDate": "2025-12-31",
+    "projects": [
+      {
+        "id": "park",
+        "assetModel": "property",
+        "rightsEndDate": "2055-12-31",
+        "ownership": "1",
+        "discountRate": "0.1",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        },
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "operatingCashFlowAfterTax": "100",
+            "maintenanceCapex": "10",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "operatingCashFlowAfterTax": "100",
+            "maintenanceCapex": "10",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        ],
+        "terminal": {
+          "date": "2027-12-31",
+          "netProceeds": "100",
+          "method": "declared-exit",
+          "source": {
+            "kind": "teaching",
+            "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+          }
+        }
+      }
+    ],
+    "fundDiscountRate": "0.1",
+    "fundExpenses": [
+      {
+        "date": "2026-12-31",
+        "amount": "5",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "excessCash": "10",
+    "restrictedCash": "50",
+    "debtPrincipal": "100",
+    "otherSeniorClaims": "0",
+    "nonOperatingAssets": "0",
+    "equityBridgeSource": {
+      "kind": "teaching",
+      "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+    },
+    "distributionPeriod": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "distributions": [
+      {
+        "id": "paid-1",
+        "periodStart": "2025-01-01",
+        "periodEnd": "2025-12-31",
+        "paidDate": "2025-12-31",
+        "totalPaid": "20",
+        "unitsAtRecordDate": "100",
+        "reportedPerUnit": "0.2",
+        "tolerancePerUnit": "0.0001",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "expansion": {
+      "newProjects": [
+        {
+          "id": "new-park",
+          "assetModel": "property",
+          "rightsEndDate": "2055-12-31",
+          "ownership": "1",
+          "discountRate": "0.1",
+          "source": {
+            "kind": "teaching",
+            "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+          },
+          "cashFlows": [
+            {
+              "date": "2026-12-31",
+              "operatingCashFlowAfterTax": "100",
+              "maintenanceCapex": "10",
+              "growthCapex": "0",
+              "workingCapitalIncrease": "0",
+              "source": {
+                "kind": "teaching",
+                "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+              }
+            },
+            {
+              "date": "2027-12-31",
+              "operatingCashFlowAfterTax": "100",
+              "maintenanceCapex": "10",
+              "growthCapex": "0",
+              "workingCapitalIncrease": "0",
+              "source": {
+                "kind": "teaching",
+                "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+              }
+            }
+          ],
+          "terminal": {
+            "date": "2027-12-31",
+            "netProceeds": "100",
+            "method": "declared-exit",
+            "source": {
+              "kind": "teaching",
+              "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+            }
+          }
+        }
+      ],
+      "newUnits": "100",
+      "issuePrice": "2",
+      "issueCosts": "20",
+      "newDebt": "0",
+      "purchaseConsideration": "100",
+      "additionalFundExpenses": [],
+      "source": {
+        "kind": "teaching",
+        "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+      }
+    }
+  },
+  "available": {
+    "periodStart": "2025-01-01",
+    "periodEnd": "2025-12-31",
+    "netProfit": "50",
+    "adjustments": [
+      {
+        "id": "depreciation",
+        "amount": "20",
+        "reason": "声明非现金折旧加回",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      },
+      {
+        "id": "maintenance",
+        "amount": "-10",
+        "reason": "声明维护支出扣减",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "units": "100",
+    "reportedAvailable": "60",
+    "tolerance": "0.01",
+    "source": {
+      "kind": "teaching",
+      "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+    }
+  },
+  "lifecycle": {
+    "asOf": "2025-12-31",
+    "pricePerUnit": "100",
+    "endDate": "2027-12-31",
+    "futureCashPerUnit": [
+      {
+        "date": "2026-12-31",
+        "amount": "55",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      },
+      {
+        "date": "2027-12-31",
+        "amount": "60.5",
+        "source": {
+          "kind": "teaching",
+          "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+        }
+      }
+    ],
+    "terminalPerUnit": "0",
+    "source": {
+      "kind": "teaching",
+      "description": "原创合成教学假设，不是真实REIT、市场价格或预测"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "code": "508001",
+  "period": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "availablePeriod": "430707979.93",
+  "remainingAvailable": "216808020.18",
+  "plannedTotal": "216800000",
+  "plannedPerUnit": "0.43362",
+  "planToRemainingRatio": "0.9999630079182802304762967648",
+  "planToPeriodRatio": "0.5033572863805193719573906108",
+  "arithmeticCheck": "matched",
+  "actualPaid": null,
+  "marketYield": null,
+  "fairValue": null,
+  "source": {
+    "kind": "reported",
+    "description": "上交所披露分红公告第1页方案，第2页场内外日程，第3页年度累计、此前已分派及剩余；尚无登记支付凭证。",
+    "url": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-06-10/508001_20250610_P4SA.pdf",
+    "publishedAt": "2025-06-10"
+  },
+  "paymentSchedule": {
+    "onExchange": "2025-06-18",
+    "offExchange": "2025-06-16"
+  },
+  "limitations": [
+    "公告计划及发放日期不证明账户实际到账",
+    "缺登记份额，不从四舍五入的每十份金额倒推份额",
+    "缺价格不算分派率，缺未来经营现金流不编造完整估值",
+    "方案/剩余可供分配比例不是年度法定分配比例认证"
+  ]
+}

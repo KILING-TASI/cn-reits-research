@@ -1,0 +1,24 @@
+{
+  "reportSha256": "2415a0c63070751402ca58ef0bc02e96d3e9f17348c2cd675a9848edce3b4b5d",
+  "viewports": [
+    {
+      "width": 1280,
+      "screenshot": "desktop.png",
+      "sha256": "93db5fb517d2f4c1476a95bb27a80df239c29b9d8529b0423422f9403dfeb1df",
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "screenshot": "mobile.png",
+      "sha256": "8f4213847bf759ec2467e2af5cda70577486f9b274f10f5b67a0f3e5b43e17d7",
+      "horizontalOverflow": false
+    }
+  ],
+  "checks": [
+    "五组教学情景显示",
+    "扩募前后每份额明确比较",
+    "完整依据可展开",
+    "公开公告报告保留实际到账/市场收益率/估值未知"
+  ],
+  "scope": "本轮报告浏览器限定验收，不代表所有浏览器和辅助技术"
+}

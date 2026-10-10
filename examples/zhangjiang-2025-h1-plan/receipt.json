@@ -1,0 +1,8 @@
+{
+  "files": {
+    "input.json": "7ecad26445120375394ddb2410d915f9c17dbad9f6f21eaeee9b61643d8ca883",
+    "report.html": "45c41dad3f3c32e8d9f0d310d8a9e95f782b83a17f3c45fb1e434ebf9da27ad6",
+    "result.json": "b1af837b9cec859d3c9a1e83361f27df6c6e952436a87dc5b3f964d00efa169d"
+  },
+  "scope": "摘要验证字节一致，不认证来源和估值判断"
+}
