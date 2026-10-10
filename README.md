@@ -44,7 +44,6 @@ Windows运行Start-Demo.cmd，或执行 `python try_demo.py`；Linux/macOS用 `s
 经营驱动 `operating`、债务计划 `debt`、分配公告 `distribution-plan` 均为独立入口。完整底稿及真实公告案例见 [PUBLIC_CASES.md](PUBLIC_CASES.md)。公开案例缺未来现金流，不自动生成真实产品公平估值。
 
 
-[15类使用者的任务路径、术语口径与验收边界](USER_SCENARIOS.md)。
 
 
 [限定性能记录与复现方法](PERFORMANCE.md)。

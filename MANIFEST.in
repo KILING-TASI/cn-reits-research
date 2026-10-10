@@ -6,7 +6,7 @@ global-exclude *.pdf *.pyc
 
 include PUBLIC_CASES.md
 
-include USER_SCENARIOS.md EXPANSION.md
+include EXPANSION.md
 recursive-include examples/expansion-teaching *.json
 
 recursive-include examples *.json *.html *.md

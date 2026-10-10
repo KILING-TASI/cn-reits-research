@@ -17,7 +17,7 @@ cn-reits-research = "cn_reits.__main__:main"
 include = ["cn_reits*"]
 
 [tool.setuptools.data-files]
-"share/cn-reits-research" = ["VALIDATION.md", "AUDIT_SCOPE.md", "PERFORMANCE.md", "README.md", "SKILL.md", "BEGINNER.md", "USER_SCENARIOS.md", "METHODS.md", "PUBLIC_CASES.md", "THIRD_PARTY_NOTICES.md"]
+"share/cn-reits-research" = ["VALIDATION.md", "AUDIT_SCOPE.md", "PERFORMANCE.md", "README.md", "SKILL.md", "BEGINNER.md", "METHODS.md", "PUBLIC_CASES.md", "THIRD_PARTY_NOTICES.md"]
 "share/cn-reits-research/examples" = ["examples/huhangyong-2024-plan.json", "examples/teaching-all.json", "examples/zhangjiang-2025-h1-plan.json"]
 
 "share/cn-reits-research/examples/public-cases" = ["examples/huhangyong-2024-plan/*.json", "examples/huhangyong-2024-plan/*.html", "examples/zhangjiang-2025-h1-plan/*.json", "examples/zhangjiang-2025-h1-plan/*.html"]
