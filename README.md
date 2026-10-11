@@ -2,7 +2,11 @@
 
 连接项目经营现金流、费用、债务与基金份额，比较产权、经营权、扩募和分派情景。
 
-[![原创代码 MIT](https://img.shields.io/badge/原创代码-MIT-green)](LICENSE) · [当前发行版 v0.1.6](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.6) · [运行检查](https://github.com/KILING-TASI/cn-reits-research/actions)
+[原创代码 MIT](LICENSE) · [发行说明](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.6) · [运行检查](https://github.com/KILING-TASI/cn-reits-research/actions) · [English](README.en.md)
+
+当前发布：**v0.1.6 · 普通发行版**。Python **3.10+**；基础功能只需 Python，无第三方运行依赖。
+
+[快速开始](#快速开始) · [使用自己的资料](#使用自己的资料) · [能力与边界](#能力与边界) · [文档与维护](#文档与维护)
 
 ## 能解决什么问题
 
@@ -10,34 +14,54 @@
 
 独立维护REITs估值模型；工作台组织资料，规则库处理制度版本，财报仓核对原表金额。
 
+| 需要准备 | 会得到什么 |
+|---|---|
+| 项目经营现金流、费用、债务、权利期限、份额及估值假设。 | 项目到基金的价值桥接、每份额估值和分派、扩募与敏感性情景。 |
+
 ## 快速开始
 
-从[发行页](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.6)下载完整源码并解压，需要 Python 3.10 或以上。在源码目录执行：
+1. 安装 Python 3.10 或以上版本。
+2. 下载[完整源码 ZIP](https://github.com/KILING-TASI/cn-reits-research/releases/download/v0.1.6/cn-reits-research-v0.1.6-source.zip)并解压，进入包含 `try_demo.py` 的目录。
+3. 在该目录打开终端，运行：
 
-```text
+```console
 python try_demo.py --no-open --out-dir reports/first-demo
 ```
 
-按提示打开新生成的 HTML。Windows 也可双击 `Start-Demo.cmd`，Linux/macOS 可用 `sh Start-Demo.sh`。教学使用原创模拟资料，不自动取真实数据；重复运行使用新目录，历史结果保留。
+按终端给出的路径打开 HTML。也可以在源码目录双击 `Start-Demo.cmd`（Windows），或运行 `sh Start-Demo.sh`（Linux/macOS）。教学使用原创模拟资料，不自动取得真实数据。
 
-[查看已保存的报告示例](examples/reits-demo-accepted/report.html)。HTML请随完整源码下载后打开；示例按自身生成日期和口径阅读。
+使用 Git 时，先运行 `git clone https://github.com/KILING-TASI/cn-reits-research.git`，再运行 `cd cn-reits-research`，随后执行上面的教学命令。重复运行请指定新目录，历史结果会保留。
 
-![已保存的报告示例](examples/reits-demo-accepted/desktop.png)
+[报告示例源码](examples/reits-demo-accepted/report.html)：GitHub 会展示 HTML 源码，请下载完整源码后在浏览器中打开。
 
-图片是历史示例，不能推定全部新报告已完成视觉验收。
+![教学报告截图](examples/reits-demo-accepted/desktop.png)
+
+截图对应历史教学样本，具体日期、参数和缺口以该报告为准。
 
 ## 使用自己的资料
 
-先按[资料准备](BEGINNER.md)填写输入，再看[详细命令与方法](USAGE.md)。需要安装CLI时，在自己的Python环境运行：
+先按[资料准备与排错](BEGINNER.md)整理来源、日期、单位和必要字段，再按[使用说明](USAGE.md)选择对应入口。以下两种使用方式分别配置。
 
-```text
+**命令行（CLI）**：在源码目录安装本仓，然后查看可用命令：
+
+```console
 python -m pip install .
 cn-reits-research --help
 ```
 
-仓库、Python发行包、安装命令及Skill注册名均为 `cn-reits-research`。CLI安装和Skill注册是两个步骤：自然语言调用按[SKILL.md](SKILL.md)配置，保留完整资源；不必安装全部仓库。安装普通构建依赖可能联网，教学流程不需要作者缓存。
+基础安装不需要科学计算或 PDF 组件。安装时下载构建工具或可选依赖可能需要联网。
 
-## 结果范围
+**助手 Skill**：按 [SKILL.md](SKILL.md) 配置，保留完整目录及其引用资源。安装 CLI 不会自动注册 Skill，也不表示已在第三方技能市场上架。
+
+| 身份 | 名称 |
+|---|---|
+| GitHub 仓库 / Python 发行包 | `cn-reits-research` |
+| 主要命令 | `cn-reits-research` |
+| SKILL.md 中的名称 | `cn-reits-research` |
+
+本仓可单独使用。需要跨工具功能时，再按说明安装并明确配置对应工具的位置。
+
+## 能力与边界
 
 未来现金流和退出值是声明假设；缺权利期限、费用、债务或份额不能补零后称完整估值。
 
@@ -47,7 +71,7 @@ cn-reits-research --help
 
 - [详细命令与方法](USAGE.md)
 - [资料准备与排错](BEGINNER.md)
-- [Skill调用指引](SKILL.md)
+- [Skill 调用指引](SKILL.md)
 - [版本记录](CHANGELOG.md)
 - [许可与第三方范围](THIRD_PARTY_NOTICES.md)
 - [公开研究案例](PUBLIC_CASES.md)
@@ -55,10 +79,6 @@ cn-reits-research --help
 - [审计范围](AUDIT_SCOPE.md)
 - [计算方法](METHODS.md)
 
-[贡献说明](CONTRIBUTING.md) · [安全反馈](SECURITY.md) · [更新与清理](LIFECYCLE.md) · [English](README.en.md)
+[贡献说明](CONTRIBUTING.md) · [安全反馈](SECURITY.md) · [更新与清理](LIFECYCLE.md)
 
-[按问题选择其他工具](https://github.com/KILING-TASI/research-workbench/blob/main/references/tool-navigation.md)。共12个活跃仓，资料契约校验已并入[数据仓](https://github.com/KILING-TASI/cn-data-adapters/blob/main/CONTRACT_MIGRATION.md)。各仓分别发布；main的后续文档整理不改写旧发行包和冻结结果。
-
-## v0.1.6 本轮补强
-
-张江REIT公开经营、现金与分派研究；两项目条件估值和九组敏感性，假设与未核资料分开。具体参数与边界见[使用说明](USAGE.md)。
+[按问题选择其他工具](https://github.com/KILING-TASI/research-workbench/blob/main/references/tool-navigation.md)；资料契约校验已并入[数据仓](https://github.com/KILING-TASI/cn-data-adapters/blob/main/CONTRACT_MIGRATION.md)。默认分支的文档整理不改写已发布的源码包和历史结果；版本变化见 [CHANGELOG.md](CHANGELOG.md)。
