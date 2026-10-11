@@ -34,9 +34,7 @@ python try_demo.py --no-open --out-dir reports/first-demo
 
 [报告示例源码](examples/reits-demo-accepted/report.html)：GitHub 会展示 HTML 源码，请下载完整源码后在浏览器中打开。
 
-![教学报告截图](examples/reits-demo-accepted/desktop.png)
-
-截图对应历史教学样本，具体日期、参数和缺口以该报告为准。
+[教学报告截图文件](examples/reits-demo-accepted/desktop.png)：图片加载较慢时，可在下载的完整源码中打开。截图对应历史教学样本，日期、参数和缺口以该报告为准。
 
 ## 使用自己的资料
 
