@@ -3,7 +3,7 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "cn-reits-research"
-version = "0.1.5.dev0"
+version = "0.1.5"
 description = "Declared multi-project REIT cash flows, equity valuation, expansion and distributions"
 requires-python = ">=3.10"
 dependencies = []
