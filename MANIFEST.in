@@ -29,3 +29,5 @@ global-exclude *.xls
 include RIGHTS_INDEX.json
 
 recursive-include references *.md
+
+include USAGE.md
