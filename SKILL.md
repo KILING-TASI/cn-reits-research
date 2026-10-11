@@ -2,7 +2,7 @@
 name: cn-reits-research
 description: 用户研究中国REITs经营现金、每份额估值、扩募增厚、实际分派或经营权全周期收益时使用。区分产权与有限经营期限，基于明确底稿做条件测算，不执行交易或认证公平价格。
 metadata:
-  version: 0.1.5
+  version: 0.1.6
 license: MIT
 ---
 
