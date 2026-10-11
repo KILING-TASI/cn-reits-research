@@ -53,3 +53,6 @@
 
 
 当前版本：[v0.1.4](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.4)。发布页提供完整源码、wheel、sdist与校验清单；三个包仅用标准库，pip安装不自动注册Skill。
+
+
+本地待发布完整研究过程见[公开案例](PUBLIC_CASES.md)：`cn-reits-research public-case --input examples/zhangjiang-2025-conditional-study.json --out-dir reports/study`。条件估值与真实披露、实际支付和现价判断分别显示。

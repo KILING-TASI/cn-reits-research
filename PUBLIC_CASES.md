@@ -19,3 +19,16 @@ python -m cn_reits distribution-plan --input examples/huhangyong-2024-plan.json 
 
 
 直接复查：[张江管理人公告](https://www.huaan.com.cn/upload2010/2025/09/16/000128311_0_e4eac0f3-fe8e-3bc5-bf41-b65e48a60070.pdf)（第1—2页），[沪杭甬上交所公告](https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-06-10/508001_20250610_P4SA.pdf)（第1—3页）。本仓仅整理所列金额、期间和日期的有限事实，未分发全文。
+
+
+## 张江2025年报：经营、现金、分派与条件估值全过程
+
+```console
+cn-reits-research public-case --input examples/zhangjiang-2025-conditional-study.json --out-dir reports/zhangjiang-study
+```
+
+沿官方2025年报核对20项限定数值：出租面积与出租率、可供分配调整桥、合并现金流与实际分派。再结合2023年招募说明书物理154页的两个土地期限，逐年构建两项目现金流至各自到期日，扣基金层费用及权益桥声明，生成九组条件估值敏感性。未来租金现金转换率、维护支出、资本开支、营运资金、费用和零到期回收全部明确假设；不认证最新权属、2026经营状态或公允价格。
+
+支付年度与收益所属期分开；年度实际支付包含上一年度分派，不能直接用当年支付除当年可供分配金额判断超额分派。逐笔支付日及登记份额尚未完整核对，因此估值输入事件列表为空；这表示未登记，不表示没有实际分派。
+
+官方原文：[2025年报](https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf)，[2023年扩募招募说明书](https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-05-19/508000_20230519_90CA.pdf)。源PDF仅本地核对，未随包分发；摘要与物理页码在案例底稿中。

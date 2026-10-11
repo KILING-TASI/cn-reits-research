@@ -1,0 +1,1285 @@
+{
+  "inputSchema": "reits-public-case/1",
+  "entity": "华安张江产业园REIT（508000）",
+  "question": "净利润为负，为什么仍有可供分配现金；出租率下降会改变哪些判断？",
+  "asOf": "2026-10-11",
+  "facts": [
+    {
+      "id": "netProfit",
+      "value": "-42787804.65",
+      "unit": "元",
+      "page": 8,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "depreciation",
+      "value": "148186099.97",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "incomeTaxExpense",
+      "value": "-738321.99",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "incomeTaxAdjustment",
+      "value": "738321.99",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "receivablesAdjustment",
+      "value": "4630312.33",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "reserveAdjustment",
+      "value": "4783527.81",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "payablesAdjustment",
+      "value": "-1095581.28",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "projectPurchaseAdjustment",
+      "value": "-1030899.68",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "availableCash",
+      "value": "112685654.50",
+      "unit": "元",
+      "page": 9,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "previousAvailableCash",
+      "value": "120025341.27",
+      "unit": "元",
+      "page": 9,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2024-01-01",
+      "periodEnd": "2024-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "paidCash",
+      "value": "120002285.09",
+      "unit": "元",
+      "page": 10,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "units",
+      "value": "960326121",
+      "unit": "份",
+      "page": 86,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "operatingCashFlow",
+      "value": "105192467.08",
+      "unit": "元",
+      "page": 43,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "capex",
+      "value": "133406.89",
+      "unit": "元",
+      "page": 44,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "openingCash",
+      "value": "136262897.78",
+      "unit": "元",
+      "page": 44,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "closingCash",
+      "value": "121319672.88",
+      "unit": "元",
+      "page": 44,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "area",
+      "value": "86337.32",
+      "unit": "平方米",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "leasedArea",
+      "value": "75442.10",
+      "unit": "平方米",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "occupancyPct",
+      "value": "87.38",
+      "unit": "%",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "previousOccupancyPct",
+      "value": "91.90",
+      "unit": "%",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2024-01-01",
+      "periodEnd": "2024-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "现金下降情景",
+      "basis": "assumption",
+      "note": "仅测试2026—2030年每年分派沿用2025年可供分配金额的0.8倍，100%支付，折现率0.1；不是已公告分派、完整资产估值或管理人预测",
+      "cashFactor": "0.8",
+      "discountRate": "0.1",
+      "payoutRatio": "1",
+      "paymentDates": [
+        "2026-12-31",
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31"
+      ]
+    },
+    {
+      "name": "现金持平情景",
+      "basis": "assumption",
+      "note": "仅测试2026—2030年每年分派沿用2025年可供分配金额的1倍，100%支付，折现率0.08；不是已公告分派、完整资产估值或管理人预测",
+      "cashFactor": "1",
+      "discountRate": "0.08",
+      "payoutRatio": "1",
+      "paymentDates": [
+        "2026-12-31",
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31"
+      ]
+    },
+    {
+      "name": "现金改善情景",
+      "basis": "assumption",
+      "note": "仅测试2026—2030年每年分派沿用2025年可供分配金额的1.1倍，100%支付，折现率0.06；不是已公告分派、完整资产估值或管理人预测",
+      "cashFactor": "1.1",
+      "discountRate": "0.06",
+      "payoutRatio": "1",
+      "paymentDates": [
+        "2026-12-31",
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31"
+      ]
+    }
+  ],
+  "unknown": [
+    "历史招募说明书的两个土地期限已核原件；未查最新不动产登记及全部后续更正，不认证当前权属未变化",
+    "租金、出租率、现金转换率、维护支出、零增长资本开支、营运资金及到期零回收均有明确假设；没有管理人逐期预测认证",
+    "现金分类未完整认定，全部存量现金不作超额现金加回；假设份额、外部借款和优先索偿沿用2025末状态，并非最新财报",
+    "年报实际支付包含2024年末和2025年中期收益分派，未用空分派事件列表推断无实际支付；该事件级列表仅表示未完成支付日和登记日份额逐笔核对",
+    "2026最新经营披露和市场价格未纳入，不给出当前价差、分派率或买卖结论",
+    "未来运营、税费和基金层费用估计可能改变条件估值，需要按新底稿重算；本例展示完整计算过程，不认证公允价格"
+  ],
+  "rights": [
+    {
+      "projectId": "guangda",
+      "rightsEndDate": "2055-12-31",
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-05-19/508000_20230519_90CA.pdf",
+      "documentSha256": "88218753c01e07c248cc8c1666bd9177326e17399b13cf984176acc979bada01",
+      "page": 154,
+      "publishedAt": "2023-05-19",
+      "versionStatus": "historic-disclosed-rights-not-latest-registry-certified"
+    },
+    {
+      "projectId": "zhangrun",
+      "rightsEndDate": "2054-08-16",
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-05-19/508000_20230519_90CA.pdf",
+      "documentSha256": "88218753c01e07c248cc8c1666bd9177326e17399b13cf984176acc979bada01",
+      "page": 154,
+      "publishedAt": "2023-05-19",
+      "versionStatus": "historic-disclosed-rights-not-latest-registry-certified"
+    }
+  ],
+  "valuationInput": {
+    "schemaVersion": "cn-reits-valuation/1.0",
+    "entity": "华安张江产业园REIT（508000）",
+    "asOf": "2026-10-11",
+    "currency": "CNY",
+    "fundUnits": "960326121",
+    "marketPrice": null,
+    "marketPriceDate": null,
+    "projects": [
+      {
+        "id": "guangda",
+        "assetModel": "property",
+        "rightsEndDate": "2055-12-31",
+        "ownership": "1",
+        "discountRate": ".08",
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "operatingCashFlowAfterTax": "9811797.681558600",
+            "maintenanceCapex": "332876.7123287671232876712329",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2028-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2029-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2030-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2031-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2032-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2033-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2034-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2035-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2036-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2037-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2038-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2039-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2040-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2041-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2042-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2043-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2044-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2045-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2046-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2047-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2048-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2049-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2050-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2051-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2052-12-31",
+            "operatingCashFlowAfterTax": "44334789.524079600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2053-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2054-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2055-12-31",
+            "operatingCashFlowAfterTax": "44213656.219369000",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          }
+        ],
+        "terminal": {
+          "date": "2055-12-31",
+          "netProceeds": "0",
+          "method": "declared-exit",
+          "source": {
+            "kind": "assumption",
+            "description": "历史披露土地期限截止后不续期；到期净退出回收按零作研究假设，不认定真实资产必然归零。"
+          }
+        },
+        "source": {
+          "kind": "assumption",
+          "description": "项目身份、2025末经营指标见2025年报14—15页；历史权属期限见2023招募说明书物理154页；权益归属沿用披露并假设未改变；未来现金流不是已披露预测。"
+        }
+      },
+      {
+        "id": "zhangrun",
+        "assetModel": "property",
+        "rightsEndDate": "2054-08-16",
+        "ownership": "1",
+        "discountRate": ".08",
+        "cashFlows": [
+          {
+            "date": "2026-12-31",
+            "operatingCashFlowAfterTax": "11821115.0658383640",
+            "maintenanceCapex": "332876.7123287671232876712329",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2027-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2028-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2029-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2030-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2031-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2032-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2033-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2034-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2035-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2036-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2037-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2038-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2039-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2040-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2041-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2042-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2043-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2044-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2045-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2046-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2047-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2048-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2049-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2050-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2051-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2052-12-31",
+            "operatingCashFlowAfterTax": "53413927.3345289040",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2053-12-31",
+            "operatingCashFlowAfterTax": "53267987.6423580600",
+            "maintenanceCapex": "1500000",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          },
+          {
+            "date": "2054-08-16",
+            "operatingCashFlowAfterTax": "33274249.8149524320",
+            "maintenanceCapex": "936986.3013698630136986301370",
+            "growthCapex": "0",
+            "workingCapitalIncrease": "0",
+            "source": {
+              "kind": "assumption",
+              "description": "基于2025年末面积、出租率和合同租金冻结外推；年度租金现金转换率65%假设包括运营与税负，不重复包含基金/专项计划层固定费用；每项目每年维护资本开支150万元按期间比例；无增长资本开支和无新增营运资金均为测试假设。未认证最新租约、未来成本或税收口径。"
+            }
+          }
+        ],
+        "terminal": {
+          "date": "2054-08-16",
+          "netProceeds": "0",
+          "method": "declared-exit",
+          "source": {
+            "kind": "assumption",
+            "description": "历史披露土地期限截止后不续期；到期净退出回收按零作研究假设，不认定真实资产必然归零。"
+          }
+        },
+        "source": {
+          "kind": "assumption",
+          "description": "项目身份、2025末经营指标见2025年报14—15页；历史权属期限见2023招募说明书物理154页；权益归属沿用披露并假设未改变；未来现金流不是已披露预测。"
+        }
+      }
+    ],
+    "fundDiscountRate": ".08",
+    "fundExpenses": [
+      {
+        "date": "2026-12-31",
+        "amount": "971336.7231780821917808219178",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2027-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2028-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2029-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2030-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2031-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2032-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2033-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2034-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2035-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2036-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2037-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2038-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2039-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2040-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2041-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2042-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2043-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2044-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2045-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2046-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2047-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2048-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2049-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2050-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2051-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2052-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2053-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2054-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      },
+      {
+        "date": "2055-12-31",
+        "amount": "4377011.16",
+        "source": {
+          "kind": "assumption",
+          "description": "以2025年报12页基金管理、两专项计划管理、基金托管四项计提金额合计冻结外推；按期间比例，在项目现金65%转换率中明确不含这些固定层费用；未来NAV计费及浮动费用未逐项认证。"
+        }
+      }
+    ],
+    "excessCash": "0",
+    "restrictedCash": "0",
+    "debtPrincipal": "0",
+    "otherSeniorClaims": "92281520.73",
+    "nonOperatingAssets": "0",
+    "equityBridgeSource": {
+      "kind": "assumption",
+      "description": "沿用2025末960326121份，并假设此后未扩募；2025末无披露外部短长期借款，未来不融资是情景假设。2025末全部负债92281520.73元保守作为其他优先索偿扣除，不把负债合计混称借款。全部存量账面现金不作超额可分配现金加回；restrictedCash字段0仅表示未额外认定受限数量，不证明真实无受限款。非经营资产不计入。此桥不是2026最新资产负债表。"
+    },
+    "distributionPeriod": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "distributions": [],
+    "expansion": null
+  }
+}

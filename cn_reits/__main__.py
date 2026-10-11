@@ -62,6 +62,10 @@ def publish(spec,result,out):
             shutil.rmtree(stage)
 
 def main(argv=None):
+    incoming=sys.argv[1:] if argv is None else argv
+    if incoming and incoming[0]=='public-case':
+        from .public_case import main as public_main
+        return public_main(incoming[1:])
     for stream in (sys.stdout,sys.stderr):
         if hasattr(stream,'reconfigure'):stream.reconfigure(encoding='utf-8')
     p=argparse.ArgumentParser(description='REITs现金流与经营估值；输入缺失不补零，不执行交易')

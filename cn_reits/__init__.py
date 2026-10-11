@@ -1,2 +1,2 @@
 """Declared REIT cash flows, valuation scenarios and distribution research."""
-__version__ = '0.1.4'
+__version__ = '0.1.5.dev0'

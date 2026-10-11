@@ -1,0 +1,302 @@
+{
+  "inputSchema": "reits-public-case/1",
+  "entity": "华安张江产业园REIT（508000）",
+  "question": "净利润为负，为什么仍有可供分配现金；出租率下降会改变哪些判断？",
+  "asOf": "2026-10-11",
+  "facts": [
+    {
+      "id": "netProfit",
+      "value": "-42787804.65",
+      "unit": "元",
+      "page": 8,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "depreciation",
+      "value": "148186099.97",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "incomeTaxExpense",
+      "value": "-738321.99",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "incomeTaxAdjustment",
+      "value": "738321.99",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "receivablesAdjustment",
+      "value": "4630312.33",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "reserveAdjustment",
+      "value": "4783527.81",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "payablesAdjustment",
+      "value": "-1095581.28",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "projectPurchaseAdjustment",
+      "value": "-1030899.68",
+      "unit": "元",
+      "page": 11,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "availableCash",
+      "value": "112685654.50",
+      "unit": "元",
+      "page": 9,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "previousAvailableCash",
+      "value": "120025341.27",
+      "unit": "元",
+      "page": 9,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2024-01-01",
+      "periodEnd": "2024-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "paidCash",
+      "value": "120002285.09",
+      "unit": "元",
+      "page": 10,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "units",
+      "value": "960326121",
+      "unit": "份",
+      "page": 86,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "operatingCashFlow",
+      "value": "105192467.08",
+      "unit": "元",
+      "page": 43,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "capex",
+      "value": "133406.89",
+      "unit": "元",
+      "page": 44,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "openingCash",
+      "value": "136262897.78",
+      "unit": "元",
+      "page": 44,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "closingCash",
+      "value": "121319672.88",
+      "unit": "元",
+      "page": 44,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "area",
+      "value": "86337.32",
+      "unit": "平方米",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "leasedArea",
+      "value": "75442.10",
+      "unit": "平方米",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "occupancyPct",
+      "value": "87.38",
+      "unit": "%",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    },
+    {
+      "id": "previousOccupancyPct",
+      "value": "91.90",
+      "unit": "%",
+      "page": 14,
+      "sourceUrl": "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+      "documentSha256": "3260395947ebac589887a110d9dfb1fd161c1a3c386afe9ccc5aa323037f0a9a",
+      "publishedAt": "2026-03-27",
+      "periodStart": "2024-01-01",
+      "periodEnd": "2024-12-31",
+      "verification": "selected-page-visual-and-number-token-reviewed-not-whole-report-certified"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "现金下降情景",
+      "basis": "assumption",
+      "note": "仅测试2026—2030年每年分派沿用2025年可供分配金额的0.8倍，100%支付，折现率0.1；不是已公告分派、完整资产估值或管理人预测",
+      "cashFactor": "0.8",
+      "discountRate": "0.1",
+      "payoutRatio": "1",
+      "paymentDates": [
+        "2026-12-31",
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31"
+      ]
+    },
+    {
+      "name": "现金持平情景",
+      "basis": "assumption",
+      "note": "仅测试2026—2030年每年分派沿用2025年可供分配金额的1倍，100%支付，折现率0.08；不是已公告分派、完整资产估值或管理人预测",
+      "cashFactor": "1",
+      "discountRate": "0.08",
+      "payoutRatio": "1",
+      "paymentDates": [
+        "2026-12-31",
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31"
+      ]
+    },
+    {
+      "name": "现金改善情景",
+      "basis": "assumption",
+      "note": "仅测试2026—2030年每年分派沿用2025年可供分配金额的1.1倍，100%支付，折现率0.06；不是已公告分派、完整资产估值或管理人预测",
+      "cashFactor": "1.1",
+      "discountRate": "0.06",
+      "payoutRatio": "1",
+      "paymentDates": [
+        "2026-12-31",
+        "2027-12-31",
+        "2028-12-31",
+        "2029-12-31",
+        "2030-12-31"
+      ]
+    }
+  ],
+  "unknown": [
+    "权属期限及最新招募说明书原件未完整取得；历史地址取源失败，不能猜续期或永续终值",
+    "未来维护改造、营运资金、融资与处置费用尚未逐期核验，不能将历史低资本开支长期外推",
+    "货币资金分类和分派后可归属现金尚未完整核对，不把全部账面现金加进资产估值",
+    "原文说明2025年实际支付包含2024年末及2025年中期收益分派；不等于2025收益全部到账",
+    "2026年最新经营披露未纳入，本案例是2025年报研究，不是当前经营状态或现价判断"
+  ]
+}
