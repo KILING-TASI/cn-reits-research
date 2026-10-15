@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "public-validation/1",
+  "repository": "cn-reits-research",
+  "registeredOn": "2026-10-15",
+  "hashFormat": "UTF-8 with LF newlines; BOM ignored; original response hashes remain in original receipts",
+  "coverage": "limited-public-inputs",
+  "sourceAuthenticityCertified": false,
+  "evidence": [
+    {
+      "path": "examples/zhangjiang-2025-conditional-study.json",
+      "kind": "public-facts",
+      "normalizedSha256": "604cfa98c36bc47d9d8a0a2b584526e31d299269497eb0f76e5b047886484473",
+      "sourceUrls": [
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-27/508000_20260327_HFJ9.pdf",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-05-19/508000_20230519_90CA.pdf"
+      ]
+    }
+  ],
+  "checkFiles": [
+    "test_public_case.py"
+  ],
+  "gaps": [
+    "未来现金流是显式假设；不是最新公允价",
+    "2026经营、权属、逐笔实际分派仍需核对"
+  ],
+  "limits": "registry and selected counterexamples; no new original-document authentication or investment-effect certification"
+}

@@ -2,13 +2,13 @@
 
 Value declared property or finite concession cash flows, bridge project values to fund equity, and compare expansion, distribution and IRR scenarios. Two public announcement examples do not supply complete real future cash flows.
 
-[中文说明](README.md) · [Release v0.1.6](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.6) · [Skill instructions](SKILL.md) · [Input preparation](BEGINNER.md)
+[中文说明](README.md) · [Release v0.1.7](https://github.com/KILING-TASI/cn-reits-research/releases/tag/v0.1.7) · [Skill instructions](SKILL.md) · [Input preparation](BEGINNER.md)
 
-Current release: **v0.1.6 · regular release**. Python **3.10+**. Base runtime dependencies: none.
+Current release: **v0.1.7 · regular release**. Python **3.10+**. Base runtime dependencies: none.
 
 ## First run
 
-Download the [complete source ZIP](https://github.com/KILING-TASI/cn-reits-research/releases/download/v0.1.6/cn-reits-research-v0.1.6-source.zip), extract it and enter the directory containing `try_demo.py`:
+Download the [complete source ZIP](https://github.com/KILING-TASI/cn-reits-research/releases/download/v0.1.7/cn-reits-research-v0.1.7-source.zip), extract it and enter the directory containing `try_demo.py`:
 
 ```console
 python try_demo.py --no-open --out-dir reports/first-demo
